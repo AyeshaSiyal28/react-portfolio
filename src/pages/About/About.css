@@ -8,7 +8,7 @@
     margin:70px 200px;
 }
 
-.about-title{
+/* .about-title{
     position: relative;
 }
 .about-title img{
@@ -16,14 +16,14 @@
     position: absolute;
     bottom: 0;
     right: 0;
-}
+} */
 .about-title h1{
     padding: 0px 30px;
     font-size: 50px;
 }
 
 .about-section{
-    display: flex;
+    display: flex;  
 }
 
 .about-left img{
@@ -72,6 +72,9 @@
     .about{
         margin:70px 10px;
     }
+    .about-title h1{
+        font-size: 40px;
+    }
     .about-section{
         display: flex;
         flex-direction: column;
@@ -82,6 +85,9 @@
     .about-para{
         font-size: 16px;
         font-weight: 400;
+        width: 100%;
+        padding: 0px 40px;
+       
     }
     .about-left{
         padding-left: 50px;
@@ -91,7 +97,7 @@
    
 }
 .about-skills{
-    gap: 15px;
+    gap: 10px;
 
 }
 .about-skill{
@@ -99,9 +105,10 @@
     gap: 0px;
     align-items: center;
     transition: 0.3s;
+    padding: 0px 20px;
 }
 .about-skill p{
-    min-width: 100px;
+    min-width: 120px;
     font-size: 18px;
     font-weight: 500;
 }

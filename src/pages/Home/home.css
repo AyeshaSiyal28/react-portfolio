@@ -78,7 +78,14 @@
     gap: 15px;
     font-size: 15px;
     font-weight: 500;
-    padding-top: 30px;
+    padding-top: 10px;
+}
+.home-connect{
+    padding: 10px 20px;
+}
+.home-resume{
+    padding: 10px 20px;
+
 }
 
 }
