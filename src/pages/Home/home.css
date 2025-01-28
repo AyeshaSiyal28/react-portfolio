@@ -50,6 +50,10 @@
     border: 2px solid #fff;
     cursor: pointer;
 }
+.home-resume a{
+    text-decoration: none;
+    color: #fff;
+}
 .home-connect:hover{
     border: 2px solid #fff;
 

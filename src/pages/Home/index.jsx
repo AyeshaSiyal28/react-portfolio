@@ -17,7 +17,9 @@ function Home() {
          <p>I am a front-end developer from hydrabad sindh, I have 2 years of experience in front-end with react js</p>
          <div className="action">
           <NavLink to='./Contact' className="home-connect">Connect With me</NavLink>
-          <div className="home-resume">My resume</div>
+          <div className="home-resume">
+          <a href="https://ayeshasiyal.netlify.app/"> My resume</a>
+          </div>
          </div>
         </div> 
         <div>
