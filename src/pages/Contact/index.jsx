@@ -1,9 +1,9 @@
 import React from 'react'
 import '../Contact/Contact.css'
-// import theme from '../../images/theme.svg'
 import email from '../../images/email.svg'
 import number from '../../images/number.svg'
 import location from '../../images/location.svg'
+import Footer from '../../component/Footer/Footer'
 
 
 function Contact() {
@@ -12,7 +12,6 @@ function Contact() {
      <div className="contact">
         <div className="contact-title">
             <h1>Get in touch</h1>
-            {/* <img src={theme} alt="" /> */}
         </div>
         <div className="contact-section">
            <div className="contact-left">
@@ -46,6 +45,7 @@ function Contact() {
            </form>
         </div>
       </div> 
+      <Footer/>
    </>
   )
 }

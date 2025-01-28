@@ -28,7 +28,10 @@
     font-size: 15px;
     cursor: pointer;
     transition: 0.5s;
+    text-decoration: none;
+    color: #fff;
 }
+
 .connect:hover{
     transform: scale(1.05);
 }
@@ -47,7 +50,7 @@
      } */
      .open{
         display: block;
-        position: fixed;
+        /* position: fixed; */
         right: 30px;
         width: 25px;
      }
